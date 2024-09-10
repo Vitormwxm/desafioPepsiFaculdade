@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: radial-gradient(
+          circle at top left,
+          rgba(7, 10, 78, 1.0),
+          rgba(7, 10, 78, 0.7) 100%);
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+img{
+   margin-top: 15px;
+   margin-left: 40px;
+}
+
+.nav-list{
+    display: flex;
+    width: 100% ;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 10vw;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
